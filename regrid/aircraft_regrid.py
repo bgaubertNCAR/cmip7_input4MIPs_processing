@@ -100,6 +100,8 @@ def main():
             )
 
 
+    sys.exit()
+
     ##############################################################################
     # Second step, weight file exists, now loop over the list of emissions
     for count, file_name in enumerate(file_list[:]):

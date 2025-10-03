@@ -1,0 +1,27 @@
+Warning: no access to tty (Inappropriate ioctl for device).
+Thus no job control in this shell.
+Warning: no access to tty (Inappropriate ioctl for device).
+Thus no job control in this shell.
+Welcome
+there are  52  files to regrid
+first on the list is  /glade/campaign/cesm/cesmdata/input4MIPs_raw/input4MIPs/CMIP7/CMIP/PNNL-JGCRI/CEDS-CMIP-2025-04-18/atmos/mon/CO2_em_AIR_anthro/gn/v20250421/CO2-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc
+########
+Calculating re-gridding weight file
+removing existing weight file
+Initialization start:  2025-10-03 10:35:15.814903
+Warning: results will not be returned to the shell if speed_up=True
+The speed_up flag is turned to False
+If you meant to save resulting NetCDF file, turn on the save_results flag
+['lon', 'lat', 'level', 'time', 'bnds']
+Initialization end:  2025-10-03 10:35:20.711838
+Time spent: 00 minutes and 04 seconds
+========================================================================
+Grid/Field setup start:  2025-10-03 10:35:20.711878
+Grid/Field setup end:  2025-10-03 10:35:20.886730
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Generating weight start:  2025-10-03 10:35:20.886754
+Regridding failed: adding unmappaed_action
+Generating weight end:  2025-10-03 10:35:30.259058
+Time spent: 00 minutes and 09 seconds
+========================================================================

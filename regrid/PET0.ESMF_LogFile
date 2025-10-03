@@ -1,0 +1,22 @@
+20251003 095318.064 ERROR            PET0 Destination id=1 NOT found in weight matrix.
+20251003 095318.276 ERROR            PET0 ESMCI_Mesh_Regrid_Glue.C:339 ESMCI_regrid_create() Arguments are incompatible  - - There exist destination cells (e.g. id=1) which don't overlap with any source cell
+20251003 095318.373 ERROR            PET0 ESMCI_Mesh_Regrid_Glue.C:582 ESMCI_regrid_create() Arguments are incompatible  - Internal subroutine call returned Error
+20251003 095318.375 ERROR            PET0 ESMCI_MeshCap.C:1676 MeshCap::regrid_create() Arguments are incompatible  - Internal subroutine call returned Error
+20251003 095318.376 ERROR            PET0 ESMF_Regrid.F90:368 ESMF_RegridStore Arguments are incompatible  - Internal subroutine call returned Error
+20251003 095318.376 ERROR            PET0 ESMF_FieldRegrid.F90:1171 ESMF_FieldRegridStoreNX Arguments are incompatible  - Internal subroutine call returned Error
+20251003 095318.377 ERROR            PET0 ESMF_Field_C.F90:1316 f_esmf_regridstorefile Arguments are incompatible  - Internal subroutine call returned Error
+20251003 095318.377 ERROR            PET0 ESMCI_Field.C:1601 ESMCI::Field::regridstorefile() Arguments are incompatible  - Internal subroutine call returned Error
+20251003 095318.377 ERROR            PET0 ESMC_Field.C:518 ESMC_FieldRegridStoreFile() Arguments are incompatible  - Internal subroutine call returned Error
+20251003 103524.666 ERROR            PET0 Destination id=1 NOT found in weight matrix.
+20251003 103524.670 ERROR            PET0 ESMCI_Mesh_Regrid_Glue.C:339 ESMCI_regrid_create() Arguments are incompatible  - - There exist destination cells (e.g. id=1) which don't overlap with any source cell
+20251003 103524.686 ERROR            PET0 ESMCI_Mesh_Regrid_Glue.C:582 ESMCI_regrid_create() Arguments are incompatible  - Internal subroutine call returned Error
+20251003 103524.690 ERROR            PET0 ESMCI_MeshCap.C:1676 MeshCap::regrid_create() Arguments are incompatible  - Internal subroutine call returned Error
+20251003 103524.691 ERROR            PET0 ESMF_Regrid.F90:368 ESMF_RegridStore Arguments are incompatible  - Internal subroutine call returned Error
+20251003 103524.691 ERROR            PET0 ESMF_FieldRegrid.F90:1171 ESMF_FieldRegridStoreNX Arguments are incompatible  - Internal subroutine call returned Error
+20251003 103524.691 ERROR            PET0 ESMF_Field_C.F90:1316 f_esmf_regridstorefile Arguments are incompatible  - Internal subroutine call returned Error
+20251003 103524.691 ERROR            PET0 ESMCI_Field.C:1601 ESMCI::Field::regridstorefile() Arguments are incompatible  - Internal subroutine call returned Error
+20251003 103524.692 ERROR            PET0 ESMC_Field.C:518 ESMC_FieldRegridStoreFile() Arguments are incompatible  - Internal subroutine call returned Error
+20251003 103530.053 WARNING          PET0 ESMCI_PIO_Handler.C:1567 ESMCI::PIO_Handler::isOpen() File, /glade/derecho/scratch/gaubert/aircraft_cmip7/grids/ESMF_Weight_0.5x0.5_to_f09_20251002.nc, closed by PIO
+20251003 103530.155 WARNING          PET0 ESMCI_PIO_Handler.C:1567 ESMCI::PIO_Handler::isOpen() File, /glade/derecho/scratch/gaubert/aircraft_cmip7/grids/ESMF_Weight_0.5x0.5_to_f09_20251002.nc, closed by PIO
+20251003 103530.258 WARNING          PET0 ESMCI_PIO_Handler.C:1567 ESMCI::PIO_Handler::isOpen() File, /glade/derecho/scratch/gaubert/aircraft_cmip7/grids/ESMF_Weight_0.5x0.5_to_f09_20251002.nc, closed by PIO
+20251003 103530.260 INFO             PET0 Finalizing ESMF
