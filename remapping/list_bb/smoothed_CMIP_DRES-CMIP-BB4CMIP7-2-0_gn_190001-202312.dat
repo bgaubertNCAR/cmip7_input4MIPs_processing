@@ -1,0 +1,57 @@
+# Species mapping file for CAMSv6.2
+# Contains three parts 
+# (1) File locations & species setup
+# Note "SPC" in Destination_fileformat, "SPC" will be replaced by CESM species name
+# (2) mapping equations (yields can be either mass or molar yield)
+# Format: CESM_species[molecular weight] = yield*emission_inventory_species mass/molar sector vert
+# (3) molecular weights of species for emission species 
+# -> this is for the case that original emission files have wrong molecular weights or no information. 
+# === File locations Start ===
+Source_fileformat = '/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_*_smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc'
+Destination_fileformat = '/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/model_ready/smoothed/SPC_smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc'
+Source_unit = 'kg m-2 s-1'
+Destination_unit = 'molecules cm-2 s-1'
+species_list = 'All'
+#species_list = ['CO', 'ALK4']
+# === File locations End ===
+# === Mapping equations Start ===
+CO[28]       = 1.0*CO                molar  [COsmoothed]   {sfc}
+NH3[17]      = 1.0*NH3               molar  [NH3smoothed]   {sfc}
+NO[30]       = 1.0*NOx               molar  [NOxsmoothed]   {sfc}
+SO2[64]      = 0.975*SO2             molar  [SO2smoothed]   {sfc}
+C2H6[30]     = 1.0*C2H6              molar  [C2H6smoothed]   {sfc}
+C3H8[44]     = 1.0*C3H8              molar  [C3H8smoothed]   {sfc}
+C2H4[28]     = 1.0*C2H4              molar  [C2H4smoothed]   {sfc}
+C3H6[42]     = 1.0*C3H6              molar  [C3H6smoothed]   {sfc}
+C2H2[26]     = 1.0*C2H2              molar  [C2H2smoothed]   {sfc}
+CH2O[30]     = 1.0*CH2O              molar  [CH2Osmoothed]   {sfc}
+CH3OH[32]    = 1.0*CH3OH             molar  [CH3OHsmoothed]   {sfc}
+C2H5OH[46]   = 1.0*C2H5OH            molar  [C2H5OHsmoothed]  {sfc}
+CH3COCH3[58] = 1.0*C3H6O             molar  [C3H6Osmoothed]   {sfc}
+MEK[72]      = 1.0*MEK               molar  [MEKsmoothed]     {sfc}
+CH3CHO[44]   = 1.0*C2H4O             molar  [C2H4Osmoothed]   {sfc}
+HCOOH[46]    = 1.0*HCOOH             molar  [HCOOHsmoothed]   {sfc}
+CH3COOH[60]  = 1.0*CH3COOH           molar  [CH3COOHsmoothed]   {sfc}
+BENZENE[78]  = 1.0*C6H6              molar  [C6H6smoothed]    {sfc}
+TOLUENE[92]  = 1.0*C7H8              molar  [C7H8smoothed]    {sfc}
+XYLENES[106] = 1.0*C8H10             molar  [C8H10smoothed]   {sfc}
+ISOP[68]     = 1.0*C5H8              molar  [C5H8smoothed]    {sfc}
+MTERP[136]   = 1.0*C10H16            molar  [C10H16smoothed]  {sfc}
+bc_a4[12]    = 1.0*BC                mass  [BCsmoothed]     {sfc}
+pom_a4[12]   = 1.4*OC                mass  [OCsmoothed]     {sfc}
+num_bc_a4[12]  =     1.0*BC          molar   [BCsmoothed]  {sfc}   0.134e-6   1700
+num_pom_a4[12] =     1.4*OC          molar   [OCsmoothed]  {sfc}   0.134e-6   1000
+SO4[115]         =   0.025*SO2      molar   [SO2smoothed]   {sfc}
+num_SO4[115]     =   0.025*SO2      molar   [SO2smoothed]   {sfc}   0.0504e-6   1770
+HCN[27]      = 1.0*HCN               molar  [HCNsmoothed]   {sfc}
+CH3CN[41]    = 0.002*CO              molar  [COsmoothed]    {sfc}
+BIGALK[72]   = 1.0*HigherAlkanes    molar  [HigherAlkanessmoothed]   {sfc}
+BIGENE[56]   = 1.0*HigherAlkenes    molar  [HigherAlkenessmoothed]   {sfc}
+MTERP[136]   = 1.0*C10H16            molar  [C10H16smoothed]   {sfc}
+CH3COCHO[72] = 1.0*CH3COCHO          molar  [CH3COCHOsmoothed]   {sfc}
+IVOC[184]    = 1.0*IVOC              mass  [bb]   {sfc}
+SVOC[310]    = 0.6*1.4*OC            mass  [OCsmoothed]   {sfc}
+# === Mapping equations End ===
+# === Molecular weights (from emission inventory) Start === 
+#bb = 184
+# === Molecular weights (from emission inventory) End ===

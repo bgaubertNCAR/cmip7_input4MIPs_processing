@@ -1,0 +1,29 @@
+#!/bin/tcsh
+### Job Name
+#PBS -N remapping
+### Charging account
+#PBS -AP19010000
+### Request one chunk of resources with 1 CPU and 10 GB of memory
+#PBS -l select=1:ncpus=4:mem=160GB
+### Allow job to run up to 12 hours
+#PBS -l walltime=11:55:00
+### Route the job to the casper queue
+#PBS -q casper
+### Join output and error streams into single file
+#PBS -o logs/logs.remap.out
+#PBS -e logs/err.remap.out
+
+
+source "/glade/u/apps/opt/conda/etc/profile.d/conda.csh"
+conda activate ref
+
+
+
+./mozart.py
+
+
+
+#./all_anthro_mozart.py 
+#./mozart.py
+
+

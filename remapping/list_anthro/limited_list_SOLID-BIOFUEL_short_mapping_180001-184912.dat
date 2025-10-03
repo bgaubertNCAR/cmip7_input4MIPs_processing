@@ -1,0 +1,23 @@
+# Species mapping file for CEDSv2021
+# Contains three parts 
+# (1) File locations & species setup
+# Note "SPC" in Destination_fileformat, "SPC" will be replaced by CESM species name
+# (2) mapping equations (yields can be either mass or molar yield)
+# Format: CESM_species[molecular weight] = yield*emission_inventory_species mass/molar sector vert
+# (3) molecular weights of species for emission species 
+# -> this is for the case that original emission files have wrong molecular weights or no information. 
+# === File locations Start ===
+Source_fileformat = '/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/*-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc'
+Destination_fileformat = '/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/model_ready/SPC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc'
+Source_unit = 'kg m-2 s-1'
+Destination_unit = 'molecules cm-2 s-1'
+species_list = 'All'
+#species_list = ['CO', 'ALK4']
+# === File locations End ===
+# === Mapping equations Start ===
+HCN[27]        = 0.006*CO               mass  [Residential_Commercial_Other]   {sfc}
+CH3CN[41]      = 0.002*CO               mass  [Residential_Commercial_Other]   {sfc}
+# === Mapping equations End ===
+# === Molecular weights (from emission inventory) Start ===
+CO = 28
+# === Molecular weights (from emission inventory) End ===

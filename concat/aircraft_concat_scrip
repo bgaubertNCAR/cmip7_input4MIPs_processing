@@ -1,0 +1,34 @@
+#!/bin/sh
+
+
+
+path="/glade/derecho/scratch/gaubert/aircraft_cmip7/model_ready/f09"
+path="/glade/derecho/scratch/gaubert/aircraft_cmip7/model_ready/ne30"
+
+path_out="/glade/derecho/scratch/gaubert/aircraft_cmip7/f09/concat_files/"
+path_out="/glade/derecho/scratch/gaubert/aircraft_cmip7/ne30/concat_files/"
+
+
+path="/glade/derecho/scratch/gaubert/aircraft_cmip7/model_ready/f19"
+path_out="/glade/derecho/scratch/gaubert/aircraft_cmip7/f19/concat_files/"
+
+path="/glade/derecho/scratch/gaubert/aircraft_cmip7/model_ready/f09"
+path_out="/glade/derecho/scratch/gaubert/aircraft_cmip7/f09/concat_files/"
+
+
+
+cd ${path}
+for files in `ls *-em-AIR-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc` ; do
+    file_in=${files::-16}
+    pwd
+   
+    ncrcat ${file_in}175001-179912.nc ${file_in}180001-184912.nc ${file_in}185001-189912.nc ${file_in}190001-194912.nc ${file_in}195001-199912.nc ${file_in}200001-202312.nc ${path_out}${file_in}175001-202312.nc
+
+done
+
+
+
+
+
+
+

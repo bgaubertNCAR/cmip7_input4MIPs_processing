@@ -1,0 +1,547 @@
+Warning: no access to tty (Inappropriate ioctl for device).
+Thus no job control in this shell.
+Welcome
+########
+Calculating re-gridding weight file
+Initialization start:  2025-10-02 16:19:40.257912
+Warning: results will not be returned to the shell if speed_up=True
+The speed_up flag is turned to False
+If you meant to save resulting NetCDF file, turn on the save_results flag
+['lon', 'lat', 'sector', 'time', 'bound']
+Initialization end:  2025-10-02 16:19:40.684605
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-02 16:19:40.684647
+Grid/Field setup end:  2025-10-02 16:19:41.222946
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Generating weight start:  2025-10-02 16:19:41.222978
+Generating weight end:  2025-10-02 16:19:45.949864
+Time spent: 00 minutes and 04 seconds
+========================================================================
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC05-pentanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+0 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC05-pentanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC19-ethers-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+1 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC19-ethers-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+2 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC04-butanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+3 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC04-butanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC08-propene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+4 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC08-propene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc
+5 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+6 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_190001-194912.nc
+7 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC01-alcohols-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+8 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC01-alcohols-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+9 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC08-propene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+10 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC08-propene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+11 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+12 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_190001-194912.nc
+13 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC24-acids-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+14 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC24-acids-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC13-benzene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+15 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC13-benzene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+16 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+17 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC25-other-voc-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+18 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC25-other-voc-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC09-ethyne-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+19 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC09-ethyne-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC04-butanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+20 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC04-butanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC03-propane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+21 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC03-propane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC18-esters-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+22 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC18-esters-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+23 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC03-propane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+24 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC03-propane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+25 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC25-other-voc-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+26 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC25-other-voc-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc
+27 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC04-butanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+28 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC04-butanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc
+29 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+30 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC12-other-alke-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+31 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC12-other-alke-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC02-ethane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+32 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC02-ethane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC18-esters-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+33 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC18-esters-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+34 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_190001-194912.nc
+35 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC12-other-alke-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+36 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC12-other-alke-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC01-alcohols-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+37 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC01-alcohols-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC02-ethane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+38 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC02-ethane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC06-hexanes-pl-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+39 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC06-hexanes-pl-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC09-ethyne-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+40 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC09-ethyne-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc
+41 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC01-alcohols-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+42 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC01-alcohols-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_185001-189912.nc
+43 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC09-ethyne-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+44 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC09-ethyne-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC12-other-alke-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+45 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC12-other-alke-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc
+46 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC17-other-arom-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+47 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC17-other-arom-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC05-pentanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+48 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC05-pentanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC03-propane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+49 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC03-propane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC24-acids-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+50 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC24-acids-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_180001-184912.nc
+51 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC01-alcohols-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+52 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC01-alcohols-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC23-ketones-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+53 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC23-ketones-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC20-chlorinate-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+54 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC20-chlorinate-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC19-ethers-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+55 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC19-ethers-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC22-other-alka-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+56 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC22-other-alka-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC19-ethers-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+57 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC19-ethers-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc
+58 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc
+59 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc
+60 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC01-alcohols-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+61 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC01-alcohols-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+62 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc
+63 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+64 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC24-acids-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+65 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC24-acids-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+66 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC15-xylene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+67 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC15-xylene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC08-propene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+68 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC08-propene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC05-pentanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+69 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC05-pentanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_180001-184912.nc
+70 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC25-other-voc-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+71 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC25-other-voc-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_180001-184912.nc
+72 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+73 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+74 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC01-alcohols-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+75 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC01-alcohols-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC21-methanal-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+76 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC21-methanal-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+77 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_180001-184912.nc
+78 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_180001-184912.nc
+79 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+80 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc
+81 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC06-hexanes-pl-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+82 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC06-hexanes-pl-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC13-benzene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+83 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC13-benzene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+84 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC03-propane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+85 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC03-propane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+86 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc
+87 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+88 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC14-toluene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+89 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC14-toluene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_185001-189912.nc
+90 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_185001-189912.nc
+91 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC06-hexanes-pl-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+92 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC06-hexanes-pl-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC25-other-voc-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+93 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC25-other-voc-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC18-esters-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+94 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC18-esters-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC18-esters-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+95 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC18-esters-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC24-acids-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+96 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC24-acids-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC05-pentanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+97 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC05-pentanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+98 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC16-trimethylb-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+99 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC16-trimethylb-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC25-other-voc-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+100 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC25-other-voc-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_197001-199912.nc
+101 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_197001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC02-ethane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+102 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC02-ethane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc
+103 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+104 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC02-ethane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+105 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC02-ethane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC23-ketones-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+106 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC23-ketones-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+107 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC04-butanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+108 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC04-butanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC19-ethers-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+109 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC19-ethers-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+110 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC14-toluene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+111 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC14-toluene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+112 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC07-ethene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+113 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC07-ethene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC13-benzene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+114 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC13-benzene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc
+115 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC18-esters-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+116 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC18-esters-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+117 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_190001-194912.nc
+118 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC20-chlorinate-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+119 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC20-chlorinate-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_197001-199912.nc
+120 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_197001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc
+121 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC08-propene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+122 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC08-propene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+123 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC14-toluene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+124 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC14-toluene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC07-ethene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+125 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC07-ethene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC17-other-arom-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+126 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC17-other-arom-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+127 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_180001-184912.nc
+128 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC04-butanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+129 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC04-butanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+130 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC21-methanal-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+131 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC21-methanal-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+132 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC09-ethyne-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+133 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC09-ethyne-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC21-methanal-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+134 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC21-methanal-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc
+135 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+136 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC07-ethene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+137 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC07-ethene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC20-chlorinate-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+138 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC20-chlorinate-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC17-other-arom-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+139 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC17-other-arom-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC14-toluene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+140 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC14-toluene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_185001-189912.nc
+141 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+142 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+143 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC12-other-alke-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+144 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC12-other-alke-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_197001-199912.nc
+145 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_197001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC16-trimethylb-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+146 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC16-trimethylb-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC24-acids-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+147 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC24-acids-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC21-methanal-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+148 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC21-methanal-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC22-other-alka-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+149 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC22-other-alka-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC17-other-arom-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+150 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC17-other-arom-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC15-xylene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+151 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC15-xylene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC06-hexanes-pl-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+152 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC06-hexanes-pl-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC04-butanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+153 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC04-butanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_185001-189912.nc
+154 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC08-propene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+155 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC08-propene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_180001-184912.nc
+156 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc
+157 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc
+158 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+159 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC16-trimethylb-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+160 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC16-trimethylb-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC12-other-alke-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+161 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC12-other-alke-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC09-ethyne-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+162 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC09-ethyne-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC15-xylene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+163 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC15-xylene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC21-methanal-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+164 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC21-methanal-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc
+165 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC06-hexanes-pl-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+166 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC06-hexanes-pl-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+167 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC15-xylene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+168 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC15-xylene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC15-xylene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+169 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC15-xylene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc
+170 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC12-other-alke-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+171 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC12-other-alke-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC20-chlorinate-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+172 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC20-chlorinate-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc
+173 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC22-other-alka-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+174 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC22-other-alka-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+175 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+176 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+177 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC19-ethers-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+178 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC19-ethers-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC02-ethane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+179 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC02-ethane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_180001-184912.nc
+180 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+181 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+182 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC20-chlorinate-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+183 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC20-chlorinate-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC23-ketones-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+184 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC23-ketones-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+185 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC05-pentanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+186 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC05-pentanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC07-ethene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+187 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC07-ethene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC23-ketones-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+188 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC23-ketones-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC13-benzene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+189 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC13-benzene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC22-other-alka-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+190 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC22-other-alka-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC16-trimethylb-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+191 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC16-trimethylb-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC21-methanal-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+192 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC21-methanal-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC17-other-arom-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+193 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC17-other-arom-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC23-ketones-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+194 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC23-ketones-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+195 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_190001-194912.nc
+196 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC03-propane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+197 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC03-propane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+198 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC13-benzene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+199 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC13-benzene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC14-toluene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+200 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC14-toluene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc
+201 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_190001-194912.nc
+202 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NMVOC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC18-esters-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+203 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC18-esters-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+204 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NH3-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+205 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc
+206 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+207 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC19-ethers-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+208 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC19-ethers-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC02-ethane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+209 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC02-ethane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC07-ethene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+210 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC07-ethene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_190001-194912.nc
+211 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC25-other-voc-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+212 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC25-other-voc-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_197001-199912.nc
+213 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_197001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc
+214 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC22-other-alka-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+215 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC22-other-alka-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC09-ethyne-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+216 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC09-ethyne-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_185001-189912.nc
+217 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+218 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+219 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC15-xylene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+220 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC15-xylene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+221 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC20-chlorinate-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+222 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC20-chlorinate-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC22-other-alka-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+223 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC22-other-alka-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC23-ketones-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+224 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC23-ketones-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_185001-189912.nc
+225 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+226 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_185001-189912.nc
+227 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/SO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+228 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc
+229 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC16-trimethylb-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+230 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC16-trimethylb-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+231 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+232 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc
+233 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC16-trimethylb-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+234 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC16-trimethylb-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+235 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC14-toluene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+236 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC14-toluene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+237 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/NOx-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC03-propane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+238 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC03-propane-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC08-propene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+239 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC08-propene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_190001-194912.nc
+240 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO2-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc
+241 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CH4-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+242 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/OC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC07-ethene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+243 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC07-ethene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC24-acids-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+244 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC24-acids-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc
+245 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/N2O-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc
+246 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/CO-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_195001-199912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC05-pentanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc
+247 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC05-pentanes-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC17-other-arom-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc
+248 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC17-other-arom-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_190001-194912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC13-benzene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+249 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC13-benzene-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC06-hexanes-pl-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc
+250 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC06-hexanes-pl-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_200001-202312.nc  already exists !!! 
+/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+### processing  251 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/BC-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_180001-184912.nc
+Initialization start:  2025-10-02 16:19:46.711795
+['lon', 'lat', 'sector', 'time', 'bound']
+Initialization end:  2025-10-02 16:19:46.718982
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-02 16:19:46.719008
+Grid/Field setup end:  2025-10-02 16:19:47.089277
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-02 16:19:47.089306
+Read regridding weight end:  2025-10-02 16:19:47.840739
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-02 16:19:47.840784
+Regridding start:  2025-10-02 16:19:47.867943
+Regridding end:  2025-10-02 16:22:12.549720
+Time spent: 02 minutes and 24 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-02 16:27:09.099456
+Time spent: 07 minutes and 21 seconds
+========================================================================
+### End ###

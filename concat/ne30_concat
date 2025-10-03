@@ -1,0 +1,48 @@
+#!/bin/sh
+
+
+
+
+path="/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/model_ready/"
+path_out="/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/model_ready/concat_files/"
+
+
+cd ${path}
+for files in `ls *_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc` ; do
+    file_in=${files::-16}
+    ls ${file_in}175001-189912.nc ${file_in}190001-202312.nc 
+    ncrcat ${file_in}175001-189912.nc ${file_in}190001-202312.nc ${path_out}${file_in}175001-202312.nc
+done
+
+
+cd ${path}
+for files in `ls *-em-SOLID-BIOFUEL-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc` ; do
+    file_in=${files::-16}
+    ls ${file_in}175001-179912.nc ${file_in}180001-184912.nc ${file_in}185001-189912.nc ${file_in}190001-194912.nc ${file_in}195001-199912.nc ${file_in}200001-202312.nc
+    ncrcat ${file_in}175001-179912.nc ${file_in}180001-184912.nc ${file_in}185001-189912.nc ${file_in}190001-194912.nc ${file_in}195001-199912.nc ${file_in}200001-202312.nc ${path_out}${file_in}175001-202312.nc
+done
+
+
+cd ${path}
+for files in `ls *-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18_gn_175001-179912.nc` ; do
+    file_in=${files::-16}
+    ls ${file_in}175001-179912.nc ${file_in}180001-184912.nc ${file_in}185001-189912.nc ${file_in}190001-194912.nc ${file_in}195001-199912.nc ${file_in}200001-202312.nc
+
+    ncrcat ${file_in}175001-179912.nc ${file_in}180001-184912.nc ${file_in}185001-189912.nc ${file_in}190001-194912.nc ${file_in}195001-199912.nc ${file_in}200001-202312.nc ${path_out}${file_in}175001-202312.nc
+
+done
+
+
+cd ${path}
+for files in `ls *-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_175001-179912.nc` ; do
+
+    file_in=${files::-16}
+
+    ls ${file_in}175001-179912.nc ${file_in}180001-184912.nc ${file_in}185001-189912.nc ${file_in}190001-194912.nc ${file_in}195001-199912.nc ${file_in}200001-202312.nc
+    ncrcat ${file_in}175001-179912.nc ${file_in}180001-184912.nc ${file_in}185001-189912.nc ${file_in}190001-194912.nc ${file_in}195001-199912.nc ${file_in}200001-202312.nc ${path_out}${file_in}175001-202312.nc
+
+
+done
+
+
+

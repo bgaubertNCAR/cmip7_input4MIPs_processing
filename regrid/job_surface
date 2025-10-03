@@ -1,0 +1,25 @@
+#!/bin/tcsh
+### Job Name
+#PBS -N anthro_regrid
+### Charging account
+#PBS -AP19010000
+### Request one chunk of resources with 1 CPU and 10 GB of memory
+#PBS -l select=1:ncpus=4:mem=160GB
+### Allow job to run up to 12 hours
+#PBS -l walltime=01:59:00
+### Route the job to the casper queue
+#PBS -q casper
+### Join output and error streams into single file
+#PBS -o logs/logs.anthro.cmip.out
+#PBS -e logs/err.anthro.cmip.err
+
+
+source "/glade/u/apps/opt/conda/etc/profile.d/conda.csh"
+module load conda
+conda activate ref
+
+
+./anthro_surface_regrid.py
+
+
+

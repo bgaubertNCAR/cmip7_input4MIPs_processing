@@ -1,0 +1,61 @@
+Warning: no access to tty (Inappropriate ioctl for device).
+Thus no job control in this shell.
+Welcome
+########
+Calculating re-gridding weight file
+Initialization start:  2025-10-02 16:20:02.085017
+Warning: results will not be returned to the shell if speed_up=True
+The speed_up flag is turned to False
+If you meant to save resulting NetCDF file, turn on the save_results flag
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-02 16:20:02.147016
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-02 16:20:02.147043
+Grid/Field setup end:  2025-10-02 16:20:03.247587
+Time spent: 00 minutes and 01 seconds
+========================================================================
+Generating weight start:  2025-10-02 16:20:03.247640
+Generating weight end:  2025-10-02 16:20:09.516167
+Time spent: 00 minutes and 06 seconds
+========================================================================
+Warning: no access to tty (Inappropriate ioctl for device).
+Thus no job control in this shell.
+Welcome
+########
+Calculating re-gridding weight file
+removing existing weight file
+Initialization start:  2025-10-02 16:37:08.339550
+Warning: results will not be returned to the shell if speed_up=True
+The speed_up flag is turned to False
+If you meant to save resulting NetCDF file, turn on the save_results flag
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-02 16:37:08.385641
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-02 16:37:08.385680
+Grid/Field setup end:  2025-10-02 16:37:08.956459
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Generating weight start:  2025-10-02 16:37:08.956488
+Generating weight end:  2025-10-02 16:37:13.426523
+Time spent: 00 minutes and 04 seconds
+========================================================================
+0 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/bb_cmip_C3H6O_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_190001-202312.nc  already exists !!! 
+1 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/bb_cmip_Toluenelump_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+### processing  2 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/bb_cmip_CH3COCHOsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-02 16:37:13.582447
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-02 16:37:13.590153
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-02 16:37:13.590171
+Grid/Field setup end:  2025-10-02 16:37:13.917038
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-02 16:37:13.917067
+Read regridding weight end:  2025-10-02 16:37:14.634791
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-02 16:37:14.634832
+Regridding start:  2025-10-02 16:37:14.706732

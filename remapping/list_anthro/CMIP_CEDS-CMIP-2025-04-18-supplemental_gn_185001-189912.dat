@@ -1,0 +1,62 @@
+# Species mapping file for CEDSv2021
+# Contains three parts 
+# (1) File locations & species setup
+# Note "SPC" in Destination_fileformat, "SPC" will be replaced by CESM species name
+# (2) mapping equations (yields can be either mass or molar yield)
+# Format: CESM_species[molecular weight] = yield*emission_inventory_species mass/molar sector vert
+# (3) molecular weights of species for emission species 
+# -> this is for the case that original emission files have wrong molecular weights or no information. 
+# === File locations Start ===
+#Source_fileformat = '/glade/derecho/scratch/gaubert/cmip_outputs/f09/anthro/*-em-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2024-10-21-supplemental_gn_200001-202212.nc'
+Source_fileformat = '/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/anthro/VOC*-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc'
+Destination_fileformat = '/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/model_ready/SPC-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2025-04-18-supplemental_gn_185001-189912.nc'
+Source_unit = 'kg m-2 s-1'
+Destination_unit = 'molecules cm-2 s-1'
+species_list = 'All'
+#species_list = ['CO', 'ALK4']
+# === File locations End ===
+# === Mapping equations Start ===
+C2H6[30]     = 1.0*VOC02-ethane      molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+C3H8[44]     = 1.0*VOC03-propane     molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+BIGALK[72]     = 1.0*VOC04-butanes + 1.0*VOC05-pentanes + 1.0*VOC06-hexanes-pl + 1.0*VOC18-esters + 1.0*VOC19-ethers   molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+C2H4[28]      = 1.0*VOC07-ethene      molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+C3H6[42]      = 1.0*VOC08-propene     molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+C2H2[26]      = 1.0*VOC09-ethyne      molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+BIGENE[56]    = 1.0*VOC12-other-alke  molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+BENZENE[78]   = 1.0*VOC13-benzene     molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+TOLUENE[92]   = 1.0*VOC14-toluene     molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+XYLENES[106]  = 1.0*VOC15-xylene + 1.0*VOC16-trimethylb + 1.0*VOC17-other-arom   molar   [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+CH2O[30]      = 1.0*VOC21-methanal    molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+CH3CHO[44]   = 1.0*VOC22-other-alka  molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+CH3OH[32]    = 0.60*VOC01-alcohols   molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+C2H5OH[46]   = 0.40*VOC01-alcohols   molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+CH3COCH3[58] = 0.8*VOC23-ketones     molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+MEK[72]      = 0.2*VOC23-ketones     molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+HCOOH[46]    = 0.5*VOC24-acids       molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+CH3COOH[60]  = 0.5*VOC24-acids       molar  [Agriculture,Energy,Industrial,Transportation,Residential_Commercial_Other,Solventsproductionandapplication,Waste,InternationalShipping]   {sfc}
+# === Mapping equations End ===
+# === Molecular weights (from emission inventory) Start ===
+VOC01-alcohols = 46.2
+VOC02-ethane = 30.
+VOC03-propane = 44.
+VOC04-butanes    = 57.8
+VOC05-pentanes   = 72.
+VOC06-hexanes-pl    = 106.8
+VOC07-ethene     = 28.
+VOC08-propene    = 42.
+VOC09-ethyne     = 26.
+VOC12-other_alke = 67.
+VOC13-benzene    = 78.
+VOC14-toluene    = 92.
+VOC15-xylene     = 106.
+VOC16-trimethylb    = 120.
+VOC17-other_arom    = 126.8
+VOC18-esters     = 104.7
+VOC19-ethers     = 81.5
+VOC20-chlorinate    = 138.8
+VOC21-methanal      = 30.
+VOC22-other_alka    = 68.8
+VOC23-ketones       = 75.3
+VOC24-acids         = 59.1
+#VOC25-other-voc     = 68.9
+# === Molecular weights (from emission inventory) End ===

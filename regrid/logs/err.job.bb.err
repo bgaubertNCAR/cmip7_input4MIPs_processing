@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/glade/campaign/acom/acom-da/Gaubert/cmip7_input4MIPs_processing/regrid/./bb_surface_regrid.py", line 143, in <module>
+    main()
+  File "/glade/campaign/acom/acom-da/Gaubert/cmip7_input4MIPs_processing/regrid/./bb_surface_regrid.py", line 102, in main
+    for count, file_name in enumerate(file_list_2[:]):
+NameError: name 'file_list_2' is not defined. Did you mean: 'file_list'?
+Traceback (most recent call last):
+  File "/glade/campaign/acom/acom-da/Gaubert/cmip7_input4MIPs_processing/regrid/./bb_surface_regrid.py", line 139, in <module>
+    main()
+  File "/glade/campaign/acom/acom-da/Gaubert/cmip7_input4MIPs_processing/regrid/./bb_surface_regrid.py", line 118, in main
+    Regridding(
+  File "/glade/campaign/acom/acom-da/Gaubert/cmip7_input4MIPs_processing/regrid/Regridding_ESMF.py", line 594, in __init__
+    self.call_ESMF()
+  File "/glade/campaign/acom/acom-da/Gaubert/cmip7_input4MIPs_processing/regrid/Regridding_ESMF.py", line 1378, in call_ESMF
+    self.src_field.data[...] = np.swapaxes( self.var[fld][ii,:,:], 0, 1)
+ValueError: could not broadcast input array from shape (1440,720) into shape (720,360)

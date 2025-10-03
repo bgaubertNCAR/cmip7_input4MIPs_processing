@@ -1,0 +1,57 @@
+# Species mapping file for CAMSv6.2
+# Contains three parts 
+# (1) File locations & species setup
+# Note "SPC" in Destination_fileformat, "SPC" will be replaced by CESM species name
+# (2) mapping equations (yields can be either mass or molar yield)
+# Format: CESM_species[molecular weight] = yield*emission_inventory_species mass/molar sector vert
+# (3) molecular weights of species for emission species 
+# -> this is for the case that original emission files have wrong molecular weights or no information. 
+# === File locations Start ===
+Source_fileformat = '/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/*_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc'
+Destination_fileformat = '/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/model_ready/SPC_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc'
+Source_unit = 'kg m-2 s-1'
+Destination_unit = 'molecules cm-2 s-1'
+species_list = 'All'
+#species_list = ['CO', 'ALK4']
+# === File locations End ===
+# === Mapping equations Start ===
+CO[28]       = 1.0*CO                molar  [CO]   {sfc}
+NH3[17]      = 1.0*NH3               molar  [NH3]   {sfc}
+NO[30]       = 1.0*NOx               molar  [NOx]   {sfc}
+SO2[64]      = 0.975*SO2             molar  [SO2]   {sfc}
+C2H6[30]     = 1.0*C2H6              molar  [C2H6]   {sfc}
+C3H8[44]     = 1.0*C3H8              molar  [C3H8]   {sfc}
+C2H4[28]     = 1.0*C2H4              molar  [C2H4]   {sfc}
+C3H6[42]     = 1.0*C3H6              molar  [C3H6]   {sfc}
+C2H2[26]     = 1.0*C2H2              molar  [C2H2]   {sfc}
+CH2O[30]     = 1.0*CH2O              molar  [CH2O]   {sfc}
+CH3OH[32]    = 1.0*CH3OH             molar  [CH3OH]   {sfc}
+C2H5OH[46]   = 1.0*C2H5OH            molar  [C2H5OH]  {sfc}
+CH3COCH3[58] = 1.0*C3H6O             molar  [C3H6O]   {sfc}
+MEK[72]      = 1.0*MEK               molar  [MEK]     {sfc}
+CH3CHO[44]   = 1.0*C2H4O             molar  [C2H4O]   {sfc}
+HCOOH[46]    = 1.0*HCOOH             molar  [HCOOH]   {sfc}
+CH3COOH[60]  = 1.0*CH3COOH           molar  [CH3COOH]   {sfc}
+BENZENE[78]  = 1.0*C6H6              molar  [C6H6]    {sfc}
+TOLUENE[92]  = 1.0*C7H8              molar  [C7H8]    {sfc}
+XYLENES[106] = 1.0*C8H10             molar  [C8H10]   {sfc}
+ISOP[68]     = 1.0*C5H8              molar  [C5H8]    {sfc}
+MTERP[136]   = 1.0*C10H16            molar  [C10H16]  {sfc}
+SO4[115]         =   0.025*SO2      molar   [SO2]   {sfc}
+num_SO4[115]     =   0.025*SO2      molar   [SO2]   {sfc}   0.0504e-6   1770
+bc_a4[12]    = 1.0*BC                mass  [BC]     {sfc}
+pom_a4[12]   = 1.4*OC                mass  [OC]     {sfc}
+num_bc_a4[12]  =     1.0*BC          molar   [BC]  {sfc}   0.134e-6   1700
+num_pom_a4[12] =     1.4*OC          molar   [OC]  {sfc}   0.134e-6   1000
+HCN[27]      = 1.0*HCN               molar  [HCN]   {sfc}
+CH3CN[41]    = 0.002*CO              molar  [CO]    {sfc}
+BIGALK[72]   = 1.0*HigherAlkanes    molar  [HigherAlkanes]   {sfc}
+BIGENE[56]   = 1.0*HigherAlkenes    molar  [HigherAlkenes]   {sfc}
+MTERP[136]   = 1.0*C10H16            molar  [C10H16]   {sfc}
+CH3COCHO[72] = 1.0*CH3COCHO          molar  [CH3COCHO]   {sfc}
+IVOC[184]    = 1.0*IVOC              mass  [bb]   {sfc}
+SVOC[310]    = 0.6*1.4*OC            mass  [OC]   {sfc}
+# === Mapping equations End ===
+# === Molecular weights (from emission inventory) Start === 
+#bb = 184
+# === Molecular weights (from emission inventory) End ===

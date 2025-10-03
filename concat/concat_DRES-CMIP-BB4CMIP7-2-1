@@ -1,0 +1,20 @@
+#!/bin/sh
+
+
+
+
+path="/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/model_ready/"
+path_out="/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/model_ready/concat_files/"
+
+
+cd ${path}
+for files in `ls *_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-1_gn_175001-189912.nc` ; do
+    file_in=${files::-16}
+    ls ${file_in}175001-189912.nc ${file_in}190001-202312.nc 
+    ncrcat ${file_in}175001-189912.nc ${file_in}190001-202312.nc ${path_out}${file_in}175001-202312.nc
+done
+
+exit
+
+
+

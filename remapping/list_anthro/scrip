@@ -1,0 +1,15 @@
+
+
+
+for file in `ls *.dat`; do 
+
+    sed -i 's/2025-03-18/2025-04-18/g' $file
+
+    NEW_FILENAME=$(echo "$file" | sed 's/2025-03-18/2025-04-18/')
+
+    cp $file $NEW_FILENAME
+
+done
+
+
+
