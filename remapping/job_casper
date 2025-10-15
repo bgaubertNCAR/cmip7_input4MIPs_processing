@@ -6,7 +6,7 @@
 ### Request one chunk of resources with 1 CPU and 10 GB of memory
 #PBS -l select=1:ncpus=4:mem=160GB
 ### Allow job to run up to 12 hours
-#PBS -l walltime=11:55:00
+#PBS -l walltime=03:55:00
 ### Route the job to the casper queue
 #PBS -q casper
 ### Join output and error streams into single file

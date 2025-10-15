@@ -18,6 +18,8 @@ for files in `ls *_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-18
     file_in=${files::-16}
     ls ${file_in}175001-189912.nc ${file_in}190001-202112.nc 
     ncrcat ${file_in}175001-189912.nc ${file_in}190001-202112.nc ${path_out}${file_in}175001-202112.nc
+
+
 done
 
 

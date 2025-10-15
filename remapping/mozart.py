@@ -22,6 +22,18 @@ def main():
     emissions mapping, look at the .dat files in list_anthro and list_bb.
     """
 
+    # fire
+
+    file_name="list_bb/smoothed_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.dat"
+    sp_map(file_name, nc_file_format='NETCDF3_64BIT_DATA', print_user_nl_cam=True, keep_sector=False, ignore_warning=False, verbose=True)
+
+    file_name="list_bb/smoothed_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.dat"
+    sp_map(file_name, nc_file_format='NETCDF3_64BIT_DATA', print_user_nl_cam=True, keep_sector=False, ignore_warning=False, verbose=True)
+
+
+    sys.exit()
+
+
     print( " ######################################### ")
     print( "em-anthro_CMIP_CEDS-CMIP-2025-04-18_gn")
     print( "175001-179912" )
@@ -62,7 +74,7 @@ def main():
     file_name="list_bb/CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912"
     sp_map(file_name, nc_file_format='NETCDF3_64BIT_DATA', print_user_nl_cam=True, keep_sector=False, ignore_warning=False, verbose=True)
 
-    file_name="list_bb/CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202312"
+    file_name="list_bb/CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112"
     sp_map(file_name, nc_file_format='NETCDF3_64BIT_DATA', print_user_nl_cam=True, keep_sector=False, ignore_warning=False, verbose=True)
 
 

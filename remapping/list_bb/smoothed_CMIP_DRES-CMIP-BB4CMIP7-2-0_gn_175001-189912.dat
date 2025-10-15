@@ -7,7 +7,7 @@
 # (3) molecular weights of species for emission species 
 # -> this is for the case that original emission files have wrong molecular weights or no information. 
 # === File locations Start ===
-Source_fileformat = '/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/*_smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc'
+Source_fileformat = '/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/*smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc'
 Destination_fileformat = '/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/model_ready/smoothed/SPC_smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc'
 Source_unit = 'kg m-2 s-1'
 Destination_unit = 'molecules cm-2 s-1'

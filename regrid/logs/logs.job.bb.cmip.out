@@ -1,0 +1,1682 @@
+Warning: no access to tty (Inappropriate ioctl for device).
+Thus no job control in this shell.
+Welcome
+########
+Calculating re-gridding weight file
+removing existing weight file
+Initialization start:  2025-10-14 16:12:33.532839
+Warning: results will not be returned to the shell if speed_up=True
+The speed_up flag is turned to False
+If you meant to save resulting NetCDF file, turn on the save_results flag
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:12:33.571807
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:12:33.571842
+Grid/Field setup end:  2025-10-14 16:12:34.009977
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Generating weight start:  2025-10-14 16:12:34.010004
+Generating weight end:  2025-10-14 16:12:48.925400
+Time spent: 00 minutes and 14 seconds
+========================================================================
+### processing  0 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_MEKsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 16:12:48.938203
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:12:48.945977
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:12:48.945996
+Grid/Field setup end:  2025-10-14 16:12:49.306023
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:12:49.306051
+Read regridding weight end:  2025-10-14 16:12:51.811740
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:12:51.811777
+Regridding start:  2025-10-14 16:12:51.837940
+Regridding end:  2025-10-14 16:13:02.450671
+Time spent: 00 minutes and 10 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:15:27.249807
+Time spent: 02 minutes and 35 seconds
+========================================================================
+### processing  1 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_NOxsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 16:15:27.337943
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:15:27.346118
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:15:27.346137
+Grid/Field setup end:  2025-10-14 16:15:27.731744
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:15:27.731772
+Read regridding weight end:  2025-10-14 16:15:30.198789
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:15:30.198825
+Regridding start:  2025-10-14 16:15:30.219409
+Regridding end:  2025-10-14 16:15:40.966702
+Time spent: 00 minutes and 10 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:16:47.486964
+Time spent: 01 minutes and 17 seconds
+========================================================================
+### processing  2 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_MEKsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 16:16:47.529173
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:16:47.538333
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:16:47.538351
+Grid/Field setup end:  2025-10-14 16:16:47.860130
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:16:47.860156
+Read regridding weight end:  2025-10-14 16:16:50.328617
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:16:50.328650
+Regridding start:  2025-10-14 16:16:50.349220
+Regridding end:  2025-10-14 16:17:05.009449
+Time spent: 00 minutes and 14 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:18:36.697453
+Time spent: 01 minutes and 46 seconds
+========================================================================
+### processing  3 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_N2Osmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 16:18:36.790413
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:18:36.798621
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:18:36.798640
+Grid/Field setup end:  2025-10-14 16:18:37.127010
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:18:37.127036
+Read regridding weight end:  2025-10-14 16:18:39.563871
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:18:39.563910
+Regridding start:  2025-10-14 16:18:39.583804
+Regridding end:  2025-10-14 16:18:50.758829
+Time spent: 00 minutes and 11 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:19:57.119803
+Time spent: 01 minutes and 17 seconds
+========================================================================
+### processing  4 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_CH2Osmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 16:19:57.278258
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:19:57.286457
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:19:57.286475
+Grid/Field setup end:  2025-10-14 16:19:57.611898
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:19:57.611925
+Read regridding weight end:  2025-10-14 16:20:00.090735
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:20:00.090775
+Regridding start:  2025-10-14 16:20:00.121130
+Regridding end:  2025-10-14 16:20:11.575669
+Time spent: 00 minutes and 11 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:21:17.451955
+Time spent: 01 minutes and 17 seconds
+========================================================================
+### processing  5 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_NOxasNO2smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 16:21:17.501353
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:21:17.509660
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:21:17.509676
+Grid/Field setup end:  2025-10-14 16:21:17.835784
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:21:17.835810
+Read regridding weight end:  2025-10-14 16:21:20.379702
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:21:20.379741
+Regridding start:  2025-10-14 16:21:20.406076
+Regridding end:  2025-10-14 16:21:35.390213
+Time spent: 00 minutes and 14 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:22:50.989469
+Time spent: 01 minutes and 30 seconds
+========================================================================
+### processing  6 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_HCOOHsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 16:22:51.031200
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:22:51.040256
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:22:51.040275
+Grid/Field setup end:  2025-10-14 16:22:51.365178
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:22:51.365205
+Read regridding weight end:  2025-10-14 16:22:53.920711
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:22:53.920749
+Regridding start:  2025-10-14 16:22:53.948164
+Regridding end:  2025-10-14 16:23:07.289773
+Time spent: 00 minutes and 13 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:24:27.483129
+Time spent: 01 minutes and 33 seconds
+========================================================================
+### processing  7 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C3H8smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 16:24:27.526641
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:24:27.534810
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:24:27.534828
+Grid/Field setup end:  2025-10-14 16:24:27.864165
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:24:27.864190
+Read regridding weight end:  2025-10-14 16:24:30.438816
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:24:30.438857
+Regridding start:  2025-10-14 16:24:30.468274
+Regridding end:  2025-10-14 16:24:48.180730
+Time spent: 00 minutes and 17 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:26:16.860257
+Time spent: 01 minutes and 46 seconds
+========================================================================
+### processing  8 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C2H6smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 16:26:16.998242
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:26:17.007342
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:26:17.007366
+Grid/Field setup end:  2025-10-14 16:26:17.388437
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:26:17.388465
+Read regridding weight end:  2025-10-14 16:26:19.990162
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:26:19.990198
+Regridding start:  2025-10-14 16:26:20.011210
+Regridding end:  2025-10-14 16:26:32.795164
+Time spent: 00 minutes and 12 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:27:34.791096
+Time spent: 01 minutes and 14 seconds
+========================================================================
+### processing  9 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C7H8smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 16:27:34.854707
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:27:34.863056
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:27:34.863077
+Grid/Field setup end:  2025-10-14 16:27:35.213721
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:27:35.213750
+Read regridding weight end:  2025-10-14 16:27:37.792233
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:27:37.792273
+Regridding start:  2025-10-14 16:27:37.819290
+Regridding end:  2025-10-14 16:27:48.908348
+Time spent: 00 minutes and 11 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:28:59.920683
+Time spent: 01 minutes and 22 seconds
+========================================================================
+### processing  10 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_SO2smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 16:29:00.031754
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:29:00.042150
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:29:00.042175
+Grid/Field setup end:  2025-10-14 16:29:00.389578
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:29:00.389612
+Read regridding weight end:  2025-10-14 16:29:03.046123
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:29:03.046163
+Regridding start:  2025-10-14 16:29:03.069856
+Regridding end:  2025-10-14 16:29:17.747770
+Time spent: 00 minutes and 14 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:31:00.441463
+Time spent: 01 minutes and 57 seconds
+========================================================================
+### processing  11 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C10H16smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 16:31:00.513304
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:31:00.522169
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:31:00.522189
+Grid/Field setup end:  2025-10-14 16:31:00.850533
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:31:00.850562
+Read regridding weight end:  2025-10-14 16:31:03.425546
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:31:03.425588
+Regridding start:  2025-10-14 16:31:03.452347
+Regridding end:  2025-10-14 16:31:14.707715
+Time spent: 00 minutes and 11 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:32:13.077295
+Time spent: 01 minutes and 09 seconds
+========================================================================
+### processing  12 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_SO2smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 16:32:13.165346
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:32:13.174125
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:32:13.174148
+Grid/Field setup end:  2025-10-14 16:32:13.522154
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:32:13.522182
+Read regridding weight end:  2025-10-14 16:32:16.118340
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:32:16.118376
+Regridding start:  2025-10-14 16:32:16.138231
+Regridding end:  2025-10-14 16:32:27.382529
+Time spent: 00 minutes and 11 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:33:39.221038
+Time spent: 01 minutes and 23 seconds
+========================================================================
+### processing  13 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C2H5OHsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 16:33:39.294145
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:33:39.303256
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:33:39.303280
+Grid/Field setup end:  2025-10-14 16:33:39.655182
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:33:39.655211
+Read regridding weight end:  2025-10-14 16:33:42.255438
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:33:42.255473
+Regridding start:  2025-10-14 16:33:42.278778
+Regridding end:  2025-10-14 16:33:56.008170
+Time spent: 00 minutes and 13 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:34:58.489370
+Time spent: 01 minutes and 16 seconds
+========================================================================
+### processing  14 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_N2Osmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 16:34:58.558703
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:34:58.567879
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:34:58.567898
+Grid/Field setup end:  2025-10-14 16:34:58.917946
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:34:58.917974
+Read regridding weight end:  2025-10-14 16:35:01.570430
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:35:01.570466
+Regridding start:  2025-10-14 16:35:01.596311
+Regridding end:  2025-10-14 16:35:16.811383
+Time spent: 00 minutes and 15 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:36:34.063458
+Time spent: 01 minutes and 32 seconds
+========================================================================
+### processing  15 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C3H8smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 16:36:34.103708
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:36:34.113210
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:36:34.113230
+Grid/Field setup end:  2025-10-14 16:36:34.454141
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:36:34.454170
+Read regridding weight end:  2025-10-14 16:36:37.065923
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:36:37.065966
+Regridding start:  2025-10-14 16:36:37.091344
+Regridding end:  2025-10-14 16:36:51.393629
+Time spent: 00 minutes and 14 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:38:14.875138
+Time spent: 01 minutes and 37 seconds
+========================================================================
+### processing  16 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_HOCH2CHOsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 16:38:14.994160
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:38:15.003839
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:38:15.003864
+Grid/Field setup end:  2025-10-14 16:38:15.345007
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:38:15.345035
+Read regridding weight end:  2025-10-14 16:38:17.976680
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:38:17.976718
+Regridding start:  2025-10-14 16:38:18.010133
+Regridding end:  2025-10-14 16:38:31.998073
+Time spent: 00 minutes and 13 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:40:04.355115
+Time spent: 01 minutes and 46 seconds
+========================================================================
+### processing  17 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_OCsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 16:40:04.465383
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:40:04.474384
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:40:04.474406
+Grid/Field setup end:  2025-10-14 16:40:04.868572
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:40:04.868604
+Read regridding weight end:  2025-10-14 16:40:07.554641
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:40:07.554678
+Regridding start:  2025-10-14 16:40:07.584685
+Regridding end:  2025-10-14 16:40:23.387417
+Time spent: 00 minutes and 15 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:41:41.692367
+Time spent: 01 minutes and 34 seconds
+========================================================================
+### processing  18 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_CH3COOHsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 16:41:41.754623
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:41:41.764032
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:41:41.764053
+Grid/Field setup end:  2025-10-14 16:41:42.100045
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:41:42.100105
+Read regridding weight end:  2025-10-14 16:41:44.673649
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:41:44.673686
+Regridding start:  2025-10-14 16:41:44.695220
+Regridding end:  2025-10-14 16:41:59.482658
+Time spent: 00 minutes and 14 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:43:50.345071
+Time spent: 02 minutes and 05 seconds
+========================================================================
+### processing  19 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_COsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 16:43:50.386554
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:43:50.395652
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:43:50.395678
+Grid/Field setup end:  2025-10-14 16:43:50.752655
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:43:50.752686
+Read regridding weight end:  2025-10-14 16:43:53.380345
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:43:53.380381
+Regridding start:  2025-10-14 16:43:53.451343
+Regridding end:  2025-10-14 16:44:04.027718
+Time spent: 00 minutes and 10 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:45:01.830650
+Time spent: 01 minutes and 08 seconds
+========================================================================
+### processing  20 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_NOxsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 16:45:01.902836
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:45:01.911972
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:45:01.911993
+Grid/Field setup end:  2025-10-14 16:45:02.246997
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:45:02.247025
+Read regridding weight end:  2025-10-14 16:45:04.851230
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:45:04.851269
+Regridding start:  2025-10-14 16:45:04.889512
+Regridding end:  2025-10-14 16:45:21.633334
+Time spent: 00 minutes and 16 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:47:00.249595
+Time spent: 01 minutes and 55 seconds
+========================================================================
+### processing  21 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_OCsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 16:47:00.350800
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:47:00.360427
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:47:00.360448
+Grid/Field setup end:  2025-10-14 16:47:00.695195
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:47:00.695223
+Read regridding weight end:  2025-10-14 16:47:03.278835
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:47:03.278876
+Regridding start:  2025-10-14 16:47:03.298709
+Regridding end:  2025-10-14 16:47:20.177322
+Time spent: 00 minutes and 16 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:49:27.020249
+Time spent: 02 minutes and 23 seconds
+========================================================================
+### processing  22 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_BCsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 16:49:27.058668
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:49:27.069203
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:49:27.069228
+Grid/Field setup end:  2025-10-14 16:49:27.423273
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:49:27.423304
+Read regridding weight end:  2025-10-14 16:49:30.032991
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:49:30.033028
+Regridding start:  2025-10-14 16:49:30.056330
+Regridding end:  2025-10-14 16:49:56.393546
+Time spent: 00 minutes and 26 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:52:00.715761
+Time spent: 02 minutes and 30 seconds
+========================================================================
+### processing  23 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_HCOOHsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 16:52:00.809612
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:52:00.818443
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:52:00.818465
+Grid/Field setup end:  2025-10-14 16:52:01.153134
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:52:01.153162
+Read regridding weight end:  2025-10-14 16:52:03.705312
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:52:03.705354
+Regridding start:  2025-10-14 16:52:03.725208
+Regridding end:  2025-10-14 16:52:18.551404
+Time spent: 00 minutes and 14 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:53:41.878875
+Time spent: 01 minutes and 38 seconds
+========================================================================
+### processing  24 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_BCsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 16:53:41.948584
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:53:41.957087
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:53:41.957107
+Grid/Field setup end:  2025-10-14 16:53:42.303574
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:53:42.303601
+Read regridding weight end:  2025-10-14 16:53:44.886294
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:53:44.886330
+Regridding start:  2025-10-14 16:53:44.907758
+Regridding end:  2025-10-14 16:53:59.102519
+Time spent: 00 minutes and 14 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:55:14.613067
+Time spent: 01 minutes and 29 seconds
+========================================================================
+### processing  25 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_CH3OHsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 16:55:14.666688
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:55:14.676393
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:55:14.676416
+Grid/Field setup end:  2025-10-14 16:55:15.029196
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:55:15.029225
+Read regridding weight end:  2025-10-14 16:55:17.627259
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:55:17.627295
+Regridding start:  2025-10-14 16:55:17.648541
+Regridding end:  2025-10-14 16:55:33.845432
+Time spent: 00 minutes and 16 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:57:02.887716
+Time spent: 01 minutes and 45 seconds
+========================================================================
+### processing  26 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C7H8smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 16:57:02.922859
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:57:02.932112
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:57:02.932133
+Grid/Field setup end:  2025-10-14 16:57:03.271132
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:57:03.271160
+Read regridding weight end:  2025-10-14 16:57:05.839889
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:57:05.839928
+Regridding start:  2025-10-14 16:57:05.860849
+Regridding end:  2025-10-14 16:57:21.334185
+Time spent: 00 minutes and 15 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 16:58:45.342481
+Time spent: 01 minutes and 39 seconds
+========================================================================
+### processing  27 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_CH2Osmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 16:58:45.450655
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 16:58:45.460567
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 16:58:45.460588
+Grid/Field setup end:  2025-10-14 16:58:45.804179
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 16:58:45.804206
+Read regridding weight end:  2025-10-14 16:58:48.406288
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 16:58:48.406323
+Regridding start:  2025-10-14 16:58:48.431614
+Regridding end:  2025-10-14 16:59:06.782788
+Time spent: 00 minutes and 18 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:00:35.385878
+Time spent: 01 minutes and 46 seconds
+========================================================================
+### processing  28 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_HigherAlkenessmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 17:00:35.419437
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:00:35.428651
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:00:35.428679
+Grid/Field setup end:  2025-10-14 17:00:35.782332
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:00:35.782358
+Read regridding weight end:  2025-10-14 17:00:38.392938
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:00:38.392974
+Regridding start:  2025-10-14 17:00:38.413269
+Regridding end:  2025-10-14 17:00:58.006743
+Time spent: 00 minutes and 19 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:02:16.122667
+Time spent: 01 minutes and 37 seconds
+========================================================================
+### processing  29 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C3H6smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 17:02:16.165380
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:02:16.173991
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:02:16.174011
+Grid/Field setup end:  2025-10-14 17:02:16.518539
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:02:16.518567
+Read regridding weight end:  2025-10-14 17:02:19.131861
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:02:19.131898
+Regridding start:  2025-10-14 17:02:19.164778
+Regridding end:  2025-10-14 17:02:35.352704
+Time spent: 00 minutes and 16 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:03:57.865366
+Time spent: 01 minutes and 38 seconds
+========================================================================
+### processing  30 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C3H6Osmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 17:03:57.974030
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:03:57.983224
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:03:57.983249
+Grid/Field setup end:  2025-10-14 17:03:58.323769
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:03:58.323798
+Read regridding weight end:  2025-10-14 17:04:00.930297
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:04:00.930332
+Regridding start:  2025-10-14 17:04:00.950455
+Regridding end:  2025-10-14 17:04:16.806513
+Time spent: 00 minutes and 15 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:05:25.876778
+Time spent: 01 minutes and 24 seconds
+========================================================================
+### processing  31 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_NOxasNO2smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 17:05:25.921786
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:05:25.932066
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:05:25.932091
+Grid/Field setup end:  2025-10-14 17:05:26.276090
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:05:26.276119
+Read regridding weight end:  2025-10-14 17:05:28.869035
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:05:28.869070
+Regridding start:  2025-10-14 17:05:28.899341
+Regridding end:  2025-10-14 17:05:47.139873
+Time spent: 00 minutes and 18 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:07:26.187515
+Time spent: 01 minutes and 57 seconds
+========================================================================
+### processing  32 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C2H5OHsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 17:07:26.253851
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:07:26.263380
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:07:26.263403
+Grid/Field setup end:  2025-10-14 17:07:26.618948
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:07:26.618981
+Read regridding weight end:  2025-10-14 17:07:29.322153
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:07:29.322195
+Regridding start:  2025-10-14 17:07:29.348525
+Regridding end:  2025-10-14 17:07:48.846548
+Time spent: 00 minutes and 19 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:09:28.057372
+Time spent: 01 minutes and 58 seconds
+========================================================================
+### processing  33 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C3H6smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 17:09:28.125339
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:09:28.134821
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:09:28.134842
+Grid/Field setup end:  2025-10-14 17:09:28.476478
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:09:28.476505
+Read regridding weight end:  2025-10-14 17:09:31.041453
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:09:31.041489
+Regridding start:  2025-10-14 17:09:31.061302
+Regridding end:  2025-10-14 17:09:48.628916
+Time spent: 00 minutes and 17 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:11:26.005204
+Time spent: 01 minutes and 54 seconds
+========================================================================
+### processing  34 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C8H10smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 17:11:26.065813
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:11:26.074939
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:11:26.074963
+Grid/Field setup end:  2025-10-14 17:11:26.424414
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:11:26.424442
+Read regridding weight end:  2025-10-14 17:11:29.029891
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:11:29.029927
+Regridding start:  2025-10-14 17:11:29.055911
+Regridding end:  2025-10-14 17:11:43.243117
+Time spent: 00 minutes and 14 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:12:46.251294
+Time spent: 01 minutes and 17 seconds
+========================================================================
+### processing  35 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_COsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 17:12:46.306066
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:12:46.315876
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:12:46.315897
+Grid/Field setup end:  2025-10-14 17:12:46.672473
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:12:46.672500
+Read regridding weight end:  2025-10-14 17:12:49.289377
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:12:49.289414
+Regridding start:  2025-10-14 17:12:49.309966
+Regridding end:  2025-10-14 17:13:07.990693
+Time spent: 00 minutes and 18 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:14:47.211132
+Time spent: 01 minutes and 57 seconds
+========================================================================
+### processing  36 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_CH3COOHsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 17:14:47.278939
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:14:47.287611
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:14:47.287634
+Grid/Field setup end:  2025-10-14 17:14:47.623356
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:14:47.623383
+Read regridding weight end:  2025-10-14 17:14:50.212487
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:14:50.212521
+Regridding start:  2025-10-14 17:14:50.236231
+Regridding end:  2025-10-14 17:15:05.282509
+Time spent: 00 minutes and 15 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:16:20.852445
+Time spent: 01 minutes and 30 seconds
+========================================================================
+### processing  37 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C2H4Osmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 17:16:20.936843
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:16:20.945159
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:16:20.945180
+Grid/Field setup end:  2025-10-14 17:16:21.297581
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:16:21.297624
+Read regridding weight end:  2025-10-14 17:16:23.915872
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:16:23.915908
+Regridding start:  2025-10-14 17:16:23.940585
+Regridding end:  2025-10-14 17:16:38.461733
+Time spent: 00 minutes and 14 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:17:55.509122
+Time spent: 01 minutes and 31 seconds
+========================================================================
+### processing  38 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C2H4Osmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 17:17:55.582788
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:17:55.592151
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:17:55.592172
+Grid/Field setup end:  2025-10-14 17:17:55.946726
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:17:55.946755
+Read regridding weight end:  2025-10-14 17:17:58.566308
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:17:58.566343
+Regridding start:  2025-10-14 17:17:58.590471
+Regridding end:  2025-10-14 17:18:18.089492
+Time spent: 00 minutes and 19 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:19:56.851500
+Time spent: 01 minutes and 58 seconds
+========================================================================
+### processing  39 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C2H6Ssmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 17:19:56.930849
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:19:56.978315
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:19:56.978354
+Grid/Field setup end:  2025-10-14 17:19:57.317976
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:19:57.318004
+Read regridding weight end:  2025-10-14 17:20:00.058824
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:20:00.058863
+Regridding start:  2025-10-14 17:20:00.082666
+Regridding end:  2025-10-14 17:20:16.850246
+Time spent: 00 minutes and 16 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:21:58.428905
+Time spent: 01 minutes and 58 seconds
+========================================================================
+### processing  40 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_H2smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 17:21:58.506043
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:21:58.549441
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:21:58.549466
+Grid/Field setup end:  2025-10-14 17:21:58.925447
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:21:58.925476
+Read regridding weight end:  2025-10-14 17:22:01.702027
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:22:01.702062
+Regridding start:  2025-10-14 17:22:01.728772
+Regridding end:  2025-10-14 17:22:16.299699
+Time spent: 00 minutes and 14 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:23:41.659315
+Time spent: 01 minutes and 39 seconds
+========================================================================
+### processing  41 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_H2smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 17:23:41.742112
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:23:41.788124
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:23:41.788163
+Grid/Field setup end:  2025-10-14 17:23:42.158827
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:23:42.158854
+Read regridding weight end:  2025-10-14 17:23:44.906593
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:23:44.906631
+Regridding start:  2025-10-14 17:23:44.927141
+Regridding end:  2025-10-14 17:24:05.494831
+Time spent: 00 minutes and 20 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:25:28.977200
+Time spent: 01 minutes and 44 seconds
+========================================================================
+### processing  42 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C2H6Ssmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 17:25:29.014243
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:25:29.022607
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:25:29.022629
+Grid/Field setup end:  2025-10-14 17:25:29.402486
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:25:29.402516
+Read regridding weight end:  2025-10-14 17:25:32.056528
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:25:32.056565
+Regridding start:  2025-10-14 17:25:32.083788
+Regridding end:  2025-10-14 17:25:47.591797
+Time spent: 00 minutes and 15 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:26:56.420641
+Time spent: 01 minutes and 24 seconds
+========================================================================
+### processing  43 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_HigherAlkenessmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 17:26:56.503210
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:26:56.513292
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:26:56.513316
+Grid/Field setup end:  2025-10-14 17:26:56.861208
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:26:56.861237
+Read regridding weight end:  2025-10-14 17:26:59.490282
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:26:59.490317
+Regridding start:  2025-10-14 17:26:59.511090
+Regridding end:  2025-10-14 17:27:15.541450
+Time spent: 00 minutes and 16 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:28:48.230125
+Time spent: 01 minutes and 48 seconds
+========================================================================
+### processing  44 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C6H6smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 17:28:48.326567
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:28:48.335094
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:28:48.335117
+Grid/Field setup end:  2025-10-14 17:28:48.689502
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:28:48.689528
+Read regridding weight end:  2025-10-14 17:28:51.366785
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:28:51.366820
+Regridding start:  2025-10-14 17:28:51.400674
+Regridding end:  2025-10-14 17:29:05.270789
+Time spent: 00 minutes and 13 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:31:27.664629
+Time spent: 02 minutes and 36 seconds
+========================================================================
+### processing  45 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C2H6smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 17:31:27.714213
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:31:27.722999
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:31:27.723016
+Grid/Field setup end:  2025-10-14 17:31:28.048057
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:31:28.048085
+Read regridding weight end:  2025-10-14 17:31:30.585533
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:31:30.585570
+Regridding start:  2025-10-14 17:31:30.606438
+Regridding end:  2025-10-14 17:31:44.094262
+Time spent: 00 minutes and 13 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:33:11.615608
+Time spent: 01 minutes and 41 seconds
+========================================================================
+### processing  46 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_HOCH2CHOsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 17:33:11.701184
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:33:11.709173
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:33:11.709191
+Grid/Field setup end:  2025-10-14 17:33:12.035404
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:33:12.035431
+Read regridding weight end:  2025-10-14 17:33:14.529233
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:33:14.529271
+Regridding start:  2025-10-14 17:33:14.555163
+Regridding end:  2025-10-14 17:33:29.657667
+Time spent: 00 minutes and 15 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:34:53.568453
+Time spent: 01 minutes and 39 seconds
+========================================================================
+### processing  47 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C10H16smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 17:34:53.613433
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:34:53.622044
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:34:53.622060
+Grid/Field setup end:  2025-10-14 17:34:53.949950
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:34:53.949977
+Read regridding weight end:  2025-10-14 17:34:56.480298
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:34:56.480337
+Regridding start:  2025-10-14 17:34:56.500072
+Regridding end:  2025-10-14 17:35:12.593191
+Time spent: 00 minutes and 16 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:36:59.581893
+Time spent: 02 minutes and 03 seconds
+========================================================================
+### processing  48 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C3H6Osmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 17:36:59.622696
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:36:59.666377
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:36:59.666412
+Grid/Field setup end:  2025-10-14 17:37:00.039621
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:37:00.039648
+Read regridding weight end:  2025-10-14 17:37:02.689643
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:37:02.689682
+Regridding start:  2025-10-14 17:37:02.712868
+Regridding end:  2025-10-14 17:37:18.253188
+Time spent: 00 minutes and 15 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:39:03.853788
+Time spent: 02 minutes and 01 seconds
+========================================================================
+### processing  49 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C6H6smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 17:39:03.900897
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:39:03.909449
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:39:03.909466
+Grid/Field setup end:  2025-10-14 17:39:04.274456
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:39:04.274483
+Read regridding weight end:  2025-10-14 17:39:06.958759
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:39:06.958798
+Regridding start:  2025-10-14 17:39:06.989990
+Regridding end:  2025-10-14 17:39:27.841663
+Time spent: 00 minutes and 20 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:41:06.029566
+Time spent: 01 minutes and 59 seconds
+========================================================================
+### processing  50 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C8H10smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 17:41:06.105342
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:41:06.145047
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:41:06.145081
+Grid/Field setup end:  2025-10-14 17:41:06.502036
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:41:06.502063
+Read regridding weight end:  2025-10-14 17:41:09.151027
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:41:09.151065
+Regridding start:  2025-10-14 17:41:09.251022
+Regridding end:  2025-10-14 17:41:26.769189
+Time spent: 00 minutes and 17 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:43:01.846729
+Time spent: 01 minutes and 52 seconds
+========================================================================
+### processing  51 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_CH3OHsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 17:43:01.889746
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 17:43:01.984079
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 17:43:01.984118
+Grid/Field setup end:  2025-10-14 17:43:02.339789
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 17:43:02.339816
+Read regridding weight end:  2025-10-14 17:43:04.979380
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 17:43:04.979418
+Regridding start:  2025-10-14 17:43:05.011810
+Regridding end:  2025-10-14 17:43:20.629346
+Time spent: 00 minutes and 15 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 17:44:43.899633
+Time spent: 01 minutes and 38 seconds
+========================================================================
+### End ###
+Warning: no access to tty (Inappropriate ioctl for device).
+Thus no job control in this shell.
+Welcome
+########
+Calculating re-gridding weight file
+removing existing weight file
+Initialization start:  2025-10-14 22:04:52.141009
+Warning: results will not be returned to the shell if speed_up=True
+The speed_up flag is turned to False
+If you meant to save resulting NetCDF file, turn on the save_results flag
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:04:52.204128
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:04:52.204148
+Grid/Field setup end:  2025-10-14 22:04:52.633555
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Generating weight start:  2025-10-14 22:04:52.633583
+Generating weight end:  2025-10-14 22:05:07.654020
+Time spent: 00 minutes and 15 seconds
+========================================================================
+### processing  0 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_CH3COCHOsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 22:05:07.666802
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:05:07.674558
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:05:07.674576
+Grid/Field setup end:  2025-10-14 22:05:08.035344
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:05:08.035373
+Read regridding weight end:  2025-10-14 22:05:10.554619
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:05:10.554657
+Regridding start:  2025-10-14 22:05:10.589332
+Regridding end:  2025-10-14 22:05:23.783704
+Time spent: 00 minutes and 13 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:06:37.082398
+Time spent: 01 minutes and 26 seconds
+========================================================================
+1 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_MEKsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+### processing  2 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_Toluenelumpsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 22:06:37.174750
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:06:37.183669
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:06:37.183686
+Grid/Field setup end:  2025-10-14 22:06:37.508435
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:06:37.508462
+Read regridding weight end:  2025-10-14 22:06:40.023366
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:06:40.023405
+Regridding start:  2025-10-14 22:06:40.044256
+Regridding end:  2025-10-14 22:06:52.395842
+Time spent: 00 minutes and 12 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:08:16.919822
+Time spent: 01 minutes and 36 seconds
+========================================================================
+3 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_NOxsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+### processing  4 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_NH3smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 22:08:16.963530
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:08:16.972317
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:08:16.972335
+Grid/Field setup end:  2025-10-14 22:08:17.297438
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:08:17.297465
+Read regridding weight end:  2025-10-14 22:08:19.782093
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:08:19.782132
+Regridding start:  2025-10-14 22:08:19.806414
+Regridding end:  2025-10-14 22:08:32.965166
+Time spent: 00 minutes and 13 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:10:07.347174
+Time spent: 01 minutes and 47 seconds
+========================================================================
+5 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_MEKsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+6 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_N2Osmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+7 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_CH2Osmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+8 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_NOxasNO2smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+9 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_HCOOHsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+10 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C3H8smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+11 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C2H6smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+### processing  12 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_HCNsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 22:10:07.433504
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:10:07.441806
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:10:07.441824
+Grid/Field setup end:  2025-10-14 22:10:07.769381
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:10:07.769408
+Read regridding weight end:  2025-10-14 22:10:10.263563
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:10:10.263605
+Regridding start:  2025-10-14 22:10:10.296307
+Regridding end:  2025-10-14 22:10:20.319963
+Time spent: 00 minutes and 10 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:11:20.415296
+Time spent: 01 minutes and 10 seconds
+========================================================================
+### processing  13 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_CH4smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 22:11:20.457680
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:11:20.465935
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:11:20.465952
+Grid/Field setup end:  2025-10-14 22:11:20.793530
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:11:20.793587
+Read regridding weight end:  2025-10-14 22:11:23.299370
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:11:23.299408
+Regridding start:  2025-10-14 22:11:23.326214
+Regridding end:  2025-10-14 22:11:33.910040
+Time spent: 00 minutes and 10 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:12:35.583488
+Time spent: 01 minutes and 12 seconds
+========================================================================
+14 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C7H8smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+15 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_SO2smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+16 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C10H16smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+17 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_SO2smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+18 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C2H5OHsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+19 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_N2Osmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+20 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C3H8smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+### processing  21 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C2H2smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 22:12:35.663722
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:12:35.672826
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:12:35.672842
+Grid/Field setup end:  2025-10-14 22:12:36.000180
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:12:36.000208
+Read regridding weight end:  2025-10-14 22:12:38.560821
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:12:38.560860
+Regridding start:  2025-10-14 22:12:38.581380
+Regridding end:  2025-10-14 22:12:50.965306
+Time spent: 00 minutes and 12 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:14:04.816947
+Time spent: 01 minutes and 26 seconds
+========================================================================
+### processing  22 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_HCNsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 22:14:04.855088
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:14:04.864047
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:14:04.864064
+Grid/Field setup end:  2025-10-14 22:14:05.193165
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:14:05.193192
+Read regridding weight end:  2025-10-14 22:14:07.736048
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:14:07.736089
+Regridding start:  2025-10-14 22:14:07.776610
+Regridding end:  2025-10-14 22:14:26.904702
+Time spent: 00 minutes and 19 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:16:10.887240
+Time spent: 02 minutes and 03 seconds
+========================================================================
+### processing  23 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C5H8smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 22:16:10.932790
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:16:10.942003
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:16:10.942021
+Grid/Field setup end:  2025-10-14 22:16:11.271548
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:16:11.271573
+Read regridding weight end:  2025-10-14 22:16:13.806017
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:16:13.806056
+Regridding start:  2025-10-14 22:16:13.838858
+Regridding end:  2025-10-14 22:16:23.441977
+Time spent: 00 minutes and 09 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:17:30.474159
+Time spent: 01 minutes and 16 seconds
+========================================================================
+24 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_HOCH2CHOsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+### processing  25 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_CH3COCHOsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 22:17:30.589707
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:17:30.598350
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:17:30.598368
+Grid/Field setup end:  2025-10-14 22:17:30.928515
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:17:30.928541
+Read regridding weight end:  2025-10-14 22:17:33.476821
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:17:33.476860
+Regridding start:  2025-10-14 22:17:33.500417
+Regridding end:  2025-10-14 22:17:47.384042
+Time spent: 00 minutes and 13 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:19:12.493372
+Time spent: 01 minutes and 39 seconds
+========================================================================
+26 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_OCsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+27 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_CH3COOHsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+28 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_COsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+29 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_NOxsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+### processing  30 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_Toluenelumpsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 22:19:12.541574
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:19:12.549298
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:19:12.549313
+Grid/Field setup end:  2025-10-14 22:19:12.873361
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:19:12.873389
+Read regridding weight end:  2025-10-14 22:19:15.436989
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:19:15.437028
+Regridding start:  2025-10-14 22:19:15.456943
+Regridding end:  2025-10-14 22:19:32.482929
+Time spent: 00 minutes and 17 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:20:44.820360
+Time spent: 01 minutes and 29 seconds
+========================================================================
+31 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_OCsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+32 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_BCsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+### processing  33 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C2H2smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 22:20:44.865881
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:20:44.873237
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:20:44.873252
+Grid/Field setup end:  2025-10-14 22:20:45.200600
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:20:45.200626
+Read regridding weight end:  2025-10-14 22:20:47.732289
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:20:47.732331
+Regridding start:  2025-10-14 22:20:47.763836
+Regridding end:  2025-10-14 22:21:01.027645
+Time spent: 00 minutes and 13 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:22:08.968345
+Time spent: 01 minutes and 21 seconds
+========================================================================
+34 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_HCOOHsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+35 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_BCsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+36 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_CH3OHsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+### processing  37 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_CO2smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 22:22:09.079105
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:22:09.087364
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:22:09.087382
+Grid/Field setup end:  2025-10-14 22:22:09.416552
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:22:09.416580
+Read regridding weight end:  2025-10-14 22:22:11.928785
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:22:11.928825
+Regridding start:  2025-10-14 22:22:11.963883
+Regridding end:  2025-10-14 22:22:26.940697
+Time spent: 00 minutes and 14 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:23:50.345828
+Time spent: 01 minutes and 38 seconds
+========================================================================
+38 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C7H8smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+### processing  39 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_NH3smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 22:23:50.437803
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:23:50.445038
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:23:50.445054
+Grid/Field setup end:  2025-10-14 22:23:50.770995
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:23:50.771022
+Read regridding weight end:  2025-10-14 22:23:53.292367
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:23:53.292408
+Regridding start:  2025-10-14 22:23:53.321325
+Regridding end:  2025-10-14 22:24:03.202997
+Time spent: 00 minutes and 09 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:24:57.468030
+Time spent: 01 minutes and 04 seconds
+========================================================================
+40 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_CH2Osmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+41 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_HigherAlkenessmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+### processing  42 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C2H4smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 22:24:57.509451
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:24:57.517660
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:24:57.517675
+Grid/Field setup end:  2025-10-14 22:24:57.843505
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:24:57.843531
+Read regridding weight end:  2025-10-14 22:25:00.352308
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:25:00.352349
+Regridding start:  2025-10-14 22:25:00.379095
+Regridding end:  2025-10-14 22:25:12.734677
+Time spent: 00 minutes and 12 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:26:30.852229
+Time spent: 01 minutes and 30 seconds
+========================================================================
+43 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C3H6smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+44 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C3H6Osmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+45 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_NOxasNO2smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+46 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C2H5OHsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+47 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C3H6smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+48 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C8H10smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+49 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_COsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+50 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_CH3COOHsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+51 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C2H4Osmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+### processing  52 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C5H8smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 22:26:30.890644
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:26:30.898797
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:26:30.898812
+Grid/Field setup end:  2025-10-14 22:26:31.224280
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:26:31.224306
+Read regridding weight end:  2025-10-14 22:26:33.767349
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:26:33.767389
+Regridding start:  2025-10-14 22:26:33.859221
+Regridding end:  2025-10-14 22:26:51.529752
+Time spent: 00 minutes and 17 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:28:35.029975
+Time spent: 02 minutes and 01 seconds
+========================================================================
+53 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C2H4Osmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+### processing  54 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_C2H4smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 22:28:35.086089
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:28:35.093519
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:28:35.093536
+Grid/Field setup end:  2025-10-14 22:28:35.420377
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:28:35.420405
+Read regridding weight end:  2025-10-14 22:28:37.934225
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:28:37.934262
+Regridding start:  2025-10-14 22:28:37.954315
+Regridding end:  2025-10-14 22:28:49.391449
+Time spent: 00 minutes and 11 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:29:56.899881
+Time spent: 01 minutes and 18 seconds
+========================================================================
+55 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C2H6Ssmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+56 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_H2smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+57 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_H2smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+### processing  58 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_CO2smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 22:29:57.017336
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:29:57.025068
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:29:57.025086
+Grid/Field setup end:  2025-10-14 22:29:57.349661
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:29:57.349689
+Read regridding weight end:  2025-10-14 22:29:59.852930
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:29:59.852968
+Regridding start:  2025-10-14 22:29:59.879559
+Regridding end:  2025-10-14 22:30:20.103869
+Time spent: 00 minutes and 20 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:31:29.909269
+Time spent: 01 minutes and 30 seconds
+========================================================================
+59 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C2H6Ssmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+### processing  60 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_HigherAlkanessmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 22:31:29.962439
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:31:29.970660
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:31:29.970677
+Grid/Field setup end:  2025-10-14 22:31:30.297861
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:31:30.297888
+Read regridding weight end:  2025-10-14 22:31:32.801909
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:31:32.801949
+Regridding start:  2025-10-14 22:31:32.822417
+Regridding end:  2025-10-14 22:31:48.306554
+Time spent: 00 minutes and 15 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:33:07.645214
+Time spent: 01 minutes and 34 seconds
+========================================================================
+61 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_HigherAlkenessmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+62 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C6H6smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+63 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C2H6smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+### processing  64 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_HigherAlkanessmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc
+Initialization start:  2025-10-14 22:33:07.766487
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:33:07.773728
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:33:07.773767
+Grid/Field setup end:  2025-10-14 22:33:08.099430
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:33:08.099459
+Read regridding weight end:  2025-10-14 22:33:10.620601
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:33:10.620641
+Regridding start:  2025-10-14 22:33:10.642855
+Regridding end:  2025-10-14 22:33:21.986183
+Time spent: 00 minutes and 11 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:34:34.531022
+Time spent: 01 minutes and 23 seconds
+========================================================================
+65 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_HOCH2CHOsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+66 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C10H16smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+67 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C3H6Osmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+68 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C6H6smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+69 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_C8H10smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc  already exists !!! 
+70 /glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/bb_cmip_CH3OHsmoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_190001-202112.nc  already exists !!! 
+### processing  71 /glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/bb_cmip_CH4smoothed_input4MIPs_emissions_CMIP_DRES-CMIP-BB4CMIP7-2-0_gn_175001-189912.nc
+Initialization start:  2025-10-14 22:34:34.598209
+['lat', 'lon', 'time', 'bound']
+Initialization end:  2025-10-14 22:34:34.606414
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Grid/Field setup start:  2025-10-14 22:34:34.606430
+Grid/Field setup end:  2025-10-14 22:34:34.931795
+Time spent: 00 minutes and 00 seconds
+========================================================================
+Read regridding weight start:  2025-10-14 22:34:34.931822
+Read regridding weight end:  2025-10-14 22:34:37.473821
+Time spent: 00 minutes and 02 seconds
+========================================================================
+Saving NetCDF file / regridding start:  2025-10-14 22:34:37.473862
+Regridding start:  2025-10-14 22:34:37.714511
+Regridding end:  2025-10-14 22:34:56.716231
+Time spent: 00 minutes and 19 seconds
+========================================================================
+Saving NetCDF file / regridding end:  2025-10-14 22:36:38.232560
+Time spent: 02 minutes and 00 seconds
+========================================================================
+### End ###

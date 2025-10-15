@@ -102,11 +102,10 @@ def main():
     for count, file_name in enumerate(file_list[:]):
 
         path_temp, file_temp = os.path.split(file_name)
+
+        # path for output file:
         file_out= path_out + file_temp
-
-
         my_file = Path(file_out)
-
 
         if my_file.exists():
             print(count, file_out, " already exists !!! ")

@@ -17,8 +17,9 @@ def get_all_files(path):
     file_list = []
     for root, dirs, files in os.walk(path):
         for file in files:
-            if 'AIR' in file:
-                file_list.append(os.path.join(root, file))
+            if 'AIR' not in file:
+                if 'smoothed' in file:
+                    file_list.append(os.path.join(root, file))
     return file_list
 
 
@@ -30,39 +31,36 @@ def main():
     The regridding is using ESMF and requires a "regridding_weights_file", which only has to be done once, set generate_weight_file = True,
     and if you have to relaunch the program because not all the emissions were created, you can just set it to False.
     Look at USER CHANGES carefully
-    This script is for aircraft emissions ("AIR").
+    This script is for surface emissions ("AIR").
     """
 
     #####################################
     #           USER CHANGES            #
     #####################################
     # source grid
-    CAMS_grid_file = "/glade/derecho/scratch/gaubert/aircraft_cmip7/grids/2_VOC17-other-arom-em-speciated-VOC-anthro_input4MIPs_emissions_CMIP_CEDS-CMIP-2024-10-21-supplemental_gn_175001-179912.nc"  # source grid
-    add_bounds_to_source_file = False
-    CAMS_grid_file_with_bnds = "/glade/derecho/scratch/gaubert/aircraft_cmip7/grids/bounds_0.5x0.5.nc"  # source grid with bounds
+    CAMS_grid_file = "grids/bb_cmip_surface_emission_grid.nc"      # source grid
 
-    dst_grid_file = "/glade/derecho/scratch/gaubert/aircraft_cmip7/grids/fv09.nc" # Destination grid
+    add_bounds_to_source_file = False
+    CAMS_grid_file_with_bnds = "grids/bb_cmip_surface_emission_grid.nc"  # source grid with bounds
+
+    dst_grid_file = "grids/ne30pg3.nc" # Destination grid
     
     ##############################
     # weight file
-    generate_weight_file = False  # if Regridding_weights_file does not exist
-    Regridding_weights_file =  "/glade/derecho/scratch/gaubert/aircraft_cmip7/grids/ESMF_Weight_0.5x0.5_to_f09_20251002.nc"
-    
+    generate_weight_file = True  # if Regridding_weights_file does not exist
+    Regridding_weights_file =  "grids/bb_ESMF_Weight_0.25x0.25_to_ne30.nc"
 
     # outputs
-    path_out = "/glade/derecho/scratch/gaubert/aircraft_cmip7_2025-04-18/rawfiles/"
+    path_out = "/glade/derecho/scratch/gaubert/cmip_outputs_2025/ne30/bb/smoothed/"
 
     # Inputs:
-    path="/glade/campaign/cesm/cesmdata/input4MIPs_raw/input4MIPs/CMIP7/CMIP/PNNL-JGCRI/CEDS-CMIP-2025-04-18/atmos/mon/"
+    path="/glade/derecho/scratch/gaubert/cmip_outputs_2025/bb/"
 
     #####################################
     #         USER CHANGES END          #
     #####################################
 
     file_list = get_all_files(path)
-
-    print("there are ", len(file_list), " files to regrid")
-    print("first on the list is ", file_list[0])
 
 
     if add_bounds_to_source_file:
@@ -87,7 +85,7 @@ def main():
         with xr.open_dataset(file_list[0]) as ds_CAMS:
             Regridding(
                 ds_CAMS.isel(time=slice(0, 1)),
-                src_grid_file=CAMS_grid_file,
+                src_grid_file=CAMS_grid_file_with_bnds,
                 dst_grid_file=dst_grid_file,
                 wgt_file=Regridding_weights_file,
                 method="Conserve",
@@ -99,37 +97,30 @@ def main():
                 nc_file_format="NETCDF3_64BIT_DATA",
             )
 
+    # second step
+    # weight file exists, now loop over the list of emissions
 
-
-    ##############################################################################
-    # Second step, weight file exists, now loop over the list of emissions
     for count, file_name in enumerate(file_list[:]):
-        # print(count, file_name)
-        test_out = file_name.find("-em-AIR-anthro_input4MIPs_")
-        file_out = path_out + file_name[test_out:]
 
         path_temp, file_temp = os.path.split(file_name)
 
+        split_string = file_temp.split('smoothed')
+        file_out_temp =  split_string[0] + "_smoothed" + split_string[1]
+
+        # path for output file:
         file_out= path_out + file_temp
-        val=file_temp.find("-em-AIR-anthro_input4MIPs_")
-        file_temp = file_temp[:val] + "-em-AIR-anthro_input4MIPs_" + file_temp[val+27:]
-
-
-        #print( count, file_name)
-        print( file_out )
-
         my_file = Path(file_out)
 
         if my_file.exists():
             print(count, file_out, " already exists !!! ")
         else:
 
-            print("### processing ", count, file_out)
+            print("### processing ", count, file_name)
 
             with xr.open_dataset(file_name) as ds_CAMS:
                 Regridding(
                     ds_CAMS,
-                    src_grid_file=CAMS_grid_file,
+                    src_grid_file=CAMS_grid_file_with_bnds,
                     dst_grid_file=dst_grid_file,
                     wgt_file=Regridding_weights_file,
                     method="Conserve",
@@ -147,9 +138,10 @@ def main():
     return ()
 
 
-
 if __name__ == "__main__":
     main()
+
+
 
 
 

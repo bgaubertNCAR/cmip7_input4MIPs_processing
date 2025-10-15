@@ -6,7 +6,7 @@
 ### Request one chunk of resources with 1 CPU and 10 GB of memory
 #PBS -l select=1:ncpus=4:mem=160GB
 ### Allow job to run up to 12 hours
-#PBS -l walltime=01:59:00
+#PBS -l walltime=08:59:00
 ### Route the job to the casper queue
 #PBS -q casper
 ### Join output and error streams into single file
@@ -18,6 +18,5 @@ source "/glade/u/apps/opt/conda/etc/profile.d/conda.csh"
 module load conda
 conda activate ref
 
-./bb_surface_regrid.py
-
+./smoothed_bb_surface_regrid.py
 
